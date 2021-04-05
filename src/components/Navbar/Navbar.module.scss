@@ -1,0 +1,17 @@
+@import "../../assets/scss/common";
+
+.navbar-wrapper {
+}
+
+
+.NavbarButton {
+  margin: 20px;
+
+  & a {
+    color: $purple;
+  }
+
+  &:hover {
+    background: #8c92a1;
+  }
+}
