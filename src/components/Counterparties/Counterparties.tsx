@@ -1,9 +1,12 @@
 import React from "react";
+import InputElement from "../componentElements/InputElement/InputElement";
 
 const Counterparties = () => {
+    const phText:string = 'найти контрагента';
+
     return (
         <div>
-            <h1>Counterparties</h1>
+            <InputElement placeholder={phText}/>
         </div>
     )
 }

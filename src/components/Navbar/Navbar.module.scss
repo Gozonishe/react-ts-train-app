@@ -8,10 +8,19 @@
   margin: 20px;
 
   & a {
-    color: $purple;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
   }
 
   &:hover {
-    background: #8c92a1;
+    background-color: $purple;
+    border-radius: 20px;
   }
 }

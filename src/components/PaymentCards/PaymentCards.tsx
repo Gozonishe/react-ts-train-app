@@ -1,11 +1,12 @@
 import React from "react";
+import InputElement from "../componentElements/InputElement/InputElement";
 
 const PaymentCards = () => {
+    const phText:string = 'найти карточки оплат';
+
     return (
         <div>
-            <h1>
-                PaymentCards
-            </h1>
+            <InputElement placeholder={phText}/>
         </div>
     )
 }

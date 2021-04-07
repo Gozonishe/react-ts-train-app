@@ -1,0 +1,20 @@
+@import "../../../assets/scss/common";
+
+.inputElementWrapper {
+  display: inline-flex;
+  align-items: center;
+  height: 100px;
+}
+
+.searchIcon {
+  padding: auto;
+  flex: 0 1 auto;
+  align-self: center;
+  border-style: none;
+}
+
+.inputElement {
+  padding: auto;
+  flex: 0 1 auto;
+  align-self: center;
+}

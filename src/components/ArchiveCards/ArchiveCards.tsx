@@ -3,7 +3,7 @@ import React from "react";
 const ArchiveCards = () => {
     return(
         <div>
-            <h1>ArchiveCards</h1>
+            <h2>Архив карточек</h2>
         </div>
     )
 }
