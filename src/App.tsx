@@ -12,9 +12,6 @@ import './App.scss';
 function App() {
     return (
         <div className="app-wrapper">
-{/*            <header className="App-header">
-                <h1> header </h1>
-            </header>*/}
             <Navbar/>
             <div className={'app-wrapper-content'}>
                 <Route path={'/reports'} render={() => <Reports/>}/>

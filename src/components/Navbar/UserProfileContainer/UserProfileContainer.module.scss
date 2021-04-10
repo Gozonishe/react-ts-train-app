@@ -1,0 +1,18 @@
+.userContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.userAvatar {
+    margin: 5px;
+    padding: 5px;
+    flex: 0 1 auto;
+}
+
+.userName {
+  margin: 5px;
+  padding: 5px;
+  flex: 0 1 auto;
+}
+
