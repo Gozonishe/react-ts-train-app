@@ -5,12 +5,12 @@ import { Button } from 'antd';
 import styles from './Navbar.module.scss';
 import DropMenuCompany from "./DropMenuCompany/DropMenuCompany";
 import DropMenuUnit from "./DropMenuUnit/DropMenuUnit";
-import UserProfileContainerModule from "./UserProfileContainer/UserProfileContainer";
+import UserProfileButton from "./UserProfileButton/UserProfileButton";
 
 const Navbar = () => {
     return (
         <nav className={'navbar-wrapper'}>
-            <UserProfileContainerModule/>
+            <UserProfileButton/>
             <DropMenuCompany/>
             <DropMenuUnit/>
             <div className={styles.NavbarButton}>

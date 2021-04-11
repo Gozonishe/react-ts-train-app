@@ -23,9 +23,9 @@ const DropMenuCompany = () => {
             defaultOpenKeys={['1']}
             mode="inline"
             >
-            <SubMenu key="bono_digital" title="Bono Digital">
-            <Menu.Item key="2">Company 2</Menu.Item>
-            <Menu.Item key="3">Company 3</Menu.Item>
+            <SubMenu key="bono_digital" className={styles.dropVariationsText} title="Bono Digital">
+            <Menu.Item className={styles.dropVariationsText} key="2">Company 2</Menu.Item>
+            <Menu.Item className={styles.dropVariationsText} key="3">Company 3</Menu.Item>
             </SubMenu>
             </Menu>
         </div>

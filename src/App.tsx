@@ -7,6 +7,8 @@ import PaymentCards from "./components/PaymentCards/PaymentCards";
 import ArchiveCards from "./components/ArchiveCards/ArchiveCards";
 import ChangeHistory from "./components/ChangeHistory/ChangeHistory";
 import Counterparties from "./components/Counterparties/Counterparties";
+import LoginUserPage from "./components/LoginPage/LoginUserPage";
+
 import './App.scss';
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
                 <Route path={'/archiveCards'} render={() => <ArchiveCards/>}/>
                 <Route path={'/counterparties'} render={() => <Counterparties/>}/>
                 <Route path={'/changeHistory'} render={() => <ChangeHistory/>}/>
+                <Route path={'/loginUserPage'} render={() => <LoginUserPage/>}/>
             </div>
         </div>
     );
