@@ -1,0 +1,36 @@
+.divider_wrapper {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  margin-top: 53.6px;
+  margin-bottom: 53.6px;
+}
+
+.divider_content {
+  margin-left: 9px;
+  margin-right: 9px;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.line_divider {
+  height: 1px;
+  width: 500px;
+  border-top:1px solid #000000;
+}
+
+.divider_button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.divider_info {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background: #CEE9D4;
+}
