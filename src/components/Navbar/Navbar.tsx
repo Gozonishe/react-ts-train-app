@@ -15,7 +15,7 @@ const Navbar = () => {
             <DropMenuUnit/>
             <div className={styles.NavbarButton}>
                 <Button type="text">
-                    <NavLink to={'./reports'}>Отчеты и графики</NavLink>
+                    <NavLink to={'./reports'} className={styles.navbar_link}>Отчеты и графики</NavLink>
                 </Button>
             </div>
             <div className={styles.NavbarButton}>

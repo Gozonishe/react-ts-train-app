@@ -1,6 +1,8 @@
 @import "../../assets/scss/common";
 
 .navbar-wrapper {
+  width: 338px;
+  height: 705px;
 }
 
 
@@ -12,7 +14,6 @@
   height: 40px;
   left: 0px;
   top: 80px;
-
 
   & a {
     color: #000;
